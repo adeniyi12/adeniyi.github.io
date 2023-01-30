@@ -1,2 +1,2 @@
-# adeniyi.github.io
+# sample
 A website for your personality
