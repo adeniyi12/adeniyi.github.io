@@ -9,6 +9,8 @@
 int _putchar(char c);
 int _printf(const char *format, ...);
 int (*check_specifier(const char*))(va_list);
+char *print_rev(char *s);
+unsigned int base_len(unsigned int num, int base);
 
 /**
  * struct func - struct for specifier to printer
@@ -24,5 +26,6 @@ typedef struct func
 int print_char(va_list);
 int print_str(va_list);
 int print_cent(va_list);
+int print_bin(va_list args);
 
 #endif
